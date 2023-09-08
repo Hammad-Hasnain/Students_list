@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="headings">
+            <h1><q>Students List</q></h1>
+            <h2>Total Students : <span id="totStds">0</span> </h2>
+
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>S No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>ID</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody">
+            </tbody>
+
+        </table>
+
+        <div class="inpBtnParent">
+
+            <div class="inputs">
+                <input type="text" placeholder="First Name" id="inp1">
+                <input type="text" placeholder="Last Name" id="inp2">
+                <input type="number" placeholder="Age" id="inp3">
+            </div>
+            <div class="buttons">
+                <button onclick="addValue()">Add</button>
+                <button onclick="clearValue()">Clear All</button>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+    <script src="app.js"> </script>
+</body>
+
+</html>
